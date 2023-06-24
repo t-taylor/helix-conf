@@ -16,6 +16,7 @@ hidden = false
 
 [keys.normal]
 esc = ["collapse_selection", "keep_primary_selection"]
+Z = { Z = ":quit" }
 
 [keys.insert]
-j = { k = "normal_mode", l = ":write-quit" }
+j = { k = "normal_mode", l = ["normal_mode", ":write"] }
