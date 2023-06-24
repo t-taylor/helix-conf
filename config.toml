@@ -4,6 +4,7 @@ theme = "gruvbox"
 true-color = true
 line-number = "relative"
 mouse = false
+bufferline = "always"
 
 [editor.cursor-shape]
 insert = "bar"
@@ -14,4 +15,7 @@ select = "underline"
 hidden = false
 
 [keys.normal]
-esc= ["collapse_selection", "keep_primary_selection"]
+esc = ["collapse_selection", "keep_primary_selection"]
+
+[keys.insert]
+j = { k = "normal_mode", l = ":write-quit" }
