@@ -5,6 +5,8 @@ true-color = true
 line-number = "relative"
 mouse = false
 bufferline = "always"
+auto-completion = false
+auto-pairs = false
 
 [editor.cursor-shape]
 insert = "bar"
@@ -14,9 +16,13 @@ select = "underline"
 [editor.file-picker]
 hidden = false
 
+[editor.lsp]
+auto-signature-help = false
+display-messages = true
+
 [keys.normal]
 esc = ["collapse_selection", "keep_primary_selection"]
 Z = { Z = ":write-quit" }
 
 [keys.insert]
-j = { k = "normal_mode", l = ["normal_mode", ":write"] }
+j = { k = "normal_mode", l = [":write", "normal_mode"] }

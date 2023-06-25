@@ -1,14 +1,6 @@
 [[language]]
 name = "go"
-scope = "source.go"
-injection-regex = "go"
-file-types = ["go"]
-roots = ["go.work", "go.mod"]
-auto-format = true
-comment-token = "//"
-language-servers = [ "gopls", "golangci-lint-langserver" ]
-# TODO: gopls needs utf-8 offsets?
-indent = { tab-width = 4, unit = "\t" }
+language-servers = [ "gopls", "golangci-lint" ]
 
 [language-server.gopls]
 config = { gopls = { gofumpt = true } }
