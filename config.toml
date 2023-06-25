@@ -1,6 +1,7 @@
-theme = "gruvbox"
+theme = "everforest_dark"
 
 [editor]
+scrolloff = 1
 true-color = true
 line-number = "relative"
 mouse = false
