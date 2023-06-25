@@ -1,0 +1,5 @@
+inherits = "onedark"
+
+"function" = { fg = "blue", modifiers = ["italic"]}
+"function.builtin" = { fg = "cyan", modifiers = ["italic"]}
+"function.macro" = { fg = "purple", modifiers = ["italic"]}
