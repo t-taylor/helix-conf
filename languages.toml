@@ -12,3 +12,7 @@ config = { command = ["golangci-lint", "run", "--enable-all", "--out-format", "j
 [[language]]
 name = "toml"
 auto-format = true
+
+[[language]]
+name = "erlang"
+auto-format = true
