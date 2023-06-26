@@ -15,4 +15,3 @@ auto-format = true
 
 [[language]]
 name = "erlang"
-auto-format = true
