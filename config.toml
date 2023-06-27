@@ -1,7 +1,7 @@
 theme = "onedark_planccck"
 
 [editor]
-scrolloff = 1
+scrolloff = 0
 true-color = true
 line-number = "relative"
 mouse = false
