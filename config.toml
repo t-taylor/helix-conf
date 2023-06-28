@@ -32,6 +32,3 @@ enable = true
 [keys.normal]
 esc = ["collapse_selection", "keep_primary_selection"]
 space = { w = ":write", W = ":write!", q = ":quit", Q = ":quit!", x = ":write-quit" }
-
-[keys.insert]
-j = { k = "normal_mode" }
