@@ -18,8 +18,8 @@ select = "underline"
 hidden = false
 
 [editor.statusline]
-left = ["mode", "spinner", "file-type", "total-line-numbers", "file-encoding"]
-center = ["file-name"]
+left = ["mode", "spinner", "file-type", "total-line-numbers", "file-encoding", "file-name"]
+center = []
 right = ["selections", "primary-selection-length", "position", "position-percentage", "spacer", "diagnostics", "workspace-diagnostics", "version-control"]
 
 [editor.lsp]
