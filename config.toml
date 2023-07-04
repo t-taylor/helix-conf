@@ -9,6 +9,19 @@ bufferline = "always"
 auto-completion = false
 auto-pairs = false
 
+[editor.whitespace.render]
+newline = "all"
+nbsp = "all"
+
+[editor.whitespace.characters]
+nbsp = "⍽"
+newline = "↲"
+
+[editor.indent-guides]
+render = true
+character = "┊" # Some characters that work well: "▏", "┆", "┊", "⸽"
+skip-levels = 1
+
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
